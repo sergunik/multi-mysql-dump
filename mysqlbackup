@@ -1,0 +1,10 @@
+/backups/*.sql {
+    daily
+    rotate 8
+    compress
+    delaycompress
+    create 640 root
+    postrotate
+        /root/backuper/run.sh
+    endscript
+}
