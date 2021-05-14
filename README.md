@@ -1,7 +1,7 @@
 # multi-mysql-dump
 Database dumping with rotation (like log-rotation)
 
-## Instalation
+## Installation
 - Upload all files into `/root/backuper/` directory or change path in files.
 - Put DB-configs into cnf-files
 - Add new config-files into run.sh (optionally)
